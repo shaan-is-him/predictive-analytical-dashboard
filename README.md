@@ -30,7 +30,7 @@ Upload your own CSV or use built-in datasets, train powerful models, analyze fea
 
 ---
 
-## 📖 How It Works
+## How It Works
 
 ### Step-by-step workflow
 
@@ -84,6 +84,9 @@ Upload your own CSV or use built-in datasets, train powerful models, analyze fea
 - Gradient Boosting
 - Logistic Regression
 - XGBoost
+- SVM
+- KNN
+- Decision Tree
 
 **Regression**
 - Random Forest
@@ -93,7 +96,7 @@ Upload your own CSV or use built-in datasets, train powerful models, analyze fea
 
 ---
 
-## 📈 Key Insights You Can Gain
+## Key Insights You Can Gain
 
 - **Which features matter most?**  
   Feature importance ranking shows the strongest predictors in your data.
