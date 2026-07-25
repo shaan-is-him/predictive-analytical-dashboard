@@ -1,7 +1,3 @@
-"""
-Model training, evaluation, and feature importance utilities.
-"""
-
 import numpy as np
 import pandas as pd
 from typing import Dict, Any, Optional, List
@@ -69,7 +65,7 @@ def get_model(model_name: str, task: str = "classification", **params):
         if model_name == "Ridge Regression":
             return Ridge(random_state=42, **filter_params(linear_keys))
         if model_name == "Linear Regression":
-            return LinearRegression(**filter_params(set()))  # no special params
+            return LinearRegression(**filter_params(set()))  
         if model_name == "Decision Tree":
             return DecisionTreeRegressor(random_state=42, **filter_params(dt_keys))
         if model_name == "SVM":
