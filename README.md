@@ -129,8 +129,6 @@ When you upload a CSV, the system:
 
 ## Screenshots
 
-> Add your own screenshots here after running the app:
-
 - `assets/overview.png` → Data Overview tab
 - `assets/performance.png` → Model Performance tab
 - `assets/importance.png` → Feature Importance tab
