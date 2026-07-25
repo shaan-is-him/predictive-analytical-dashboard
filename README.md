@@ -1,16 +1,9 @@
-# 📊 Predictive Analytics Dashboard
+# Predictive Analytics Dashboard
 
 An interactive **no-code / low-code** machine learning dashboard built with Streamlit.  
 Upload your own CSV or use built-in datasets, train powerful models, analyze feature importance, make live predictions, and generate professional PDF reports — all from a clean web interface.
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3%2B-F7931E)
-![License](https://img.shields.io/badge/License-MIT-green)
-
----
-
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
@@ -26,7 +19,7 @@ Upload your own CSV or use built-in datasets, train powerful models, analyze fea
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend / UI**: Streamlit
 - **Machine Learning**: scikit-learn, XGBoost
@@ -34,65 +27,6 @@ Upload your own CSV or use built-in datasets, train powerful models, analyze fea
 - **Visualization**: Plotly
 - **Reporting**: ReportLab (PDF generation)
 - **Model Persistence**: joblib
-
----
-
-## 📁 Project Structure
-
-```
-predictive_analytics_dashboard/
-├── app.py                      # Main Streamlit application
-├── requirements.txt            # Python dependencies
-├── README.md                   # This file
-├── src/
-│   ├── __init__.py
-│   ├── data_loader.py          # Dataset loading, synthetic data & CSV processing
-│   ├── model_trainer.py        # Model training, evaluation & feature importance
-│   ├── visualizer.py           # Plotly chart helpers
-│   └── reporter.py             # Automated PDF report generation
-├── models/                     # Saved models (created at runtime)
-├── reports/                    # Generated PDF reports (created at runtime)
-├── data/                       # Optional folder for custom CSVs
-└── assets/                     # Static assets
-```
-
----
-
-## 🚀 Installation & Setup
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/predictive-analytics-dashboard.git
-cd predictive-analytics-dashboard
-```
-
-### 2. Create a virtual environment (recommended)
-
-```bash
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-
-# macOS / Linux
-source venv/bin/activate
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the application
-
-```bash
-streamlit run app.py
-```
-
-The dashboard will open automatically at:  
-**http://localhost:8501**
 
 ---
 
@@ -119,7 +53,7 @@ The dashboard will open automatically at:
    - Set test size and whether to standardize features
 
 4. **Train Model**
-   - Click **🚀 Train Model**
+   - Click **Train Model**
    - The app trains the model, computes metrics, and extracts feature importance
 
 5. **Explore Results**
@@ -131,7 +65,7 @@ The dashboard will open automatically at:
 
 ---
 
-## 📊 Supported Datasets
+## Supported Datasets
 
 | Dataset | Task | Description |
 |---------|------|-------------|
@@ -143,7 +77,7 @@ The dashboard will open automatically at:
 
 ---
 
-## 🤖 Supported Algorithms
+## Supported Algorithms
 
 **Classification**
 - Random Forest
@@ -175,28 +109,9 @@ The dashboard will open automatically at:
 
 - **Ready for reporting?**  
   One-click PDF report is perfect for sharing results with stakeholders or including in presentations.
-
 ---
 
-## ⚙️ Requirements
-
-```
-streamlit>=1.28.0
-scikit-learn>=1.3.0
-pandas>=2.0.0
-numpy>=1.24.0
-plotly>=5.15.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
-joblib>=1.3.0
-xgboost>=2.0.0
-reportlab>=4.0.0
-Pillow>=10.0.0
-```
-
----
-
-## 🧠 How the App Handles Your Data
+## How the App Handles Your Data
 
 When you upload a CSV, the system:
 
@@ -209,7 +124,7 @@ When you upload a CSV, the system:
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 > Add your own screenshots here after running the app:
 
@@ -218,7 +133,7 @@ When you upload a CSV, the system:
 - `assets/importance.png` → Feature Importance tab
 - `assets/predictions.png` → Live Predictions tab
 - `assets/report.png` → PDF Report example
+
+- 
 If you face any issues or have suggestions, feel free to open an **Issue** on GitHub.
 
-**Built with ❤️ using Streamlit, scikit-learn, XGBoost & Plotly**
-```
