@@ -130,11 +130,11 @@ When you upload a CSV, the system:
 
 ## Screenshots
 
-- `assets/overview.png` → Data Overview tab
-- `assets/performance.png` → Model Performance tab
-- `assets/importance.png` → Feature Importance tab
-- `assets/predictions.png` → Live Predictions tab
-- `assets/report.png` → PDF Report example
+→ Data Overview tab [assets/overview.png] 
+→ Model Performance tab [assets/performance.png] 
+→ Feature Importance tab [assets/importance.png] 
+→ Live Predictions tab [assets/predictions.png] 
+→ PDF Report example [assets/report.png] 
 
 - 
 If you face any issues or have suggestions, feel free to open an **Issue** on GitHub.
