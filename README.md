@@ -129,11 +129,15 @@ When you upload a CSV, the system:
 ---
 
 ## Screenshots
-
+1 Data Overview tab  
 ![Data Overview tab](assets/overview.png)
+2 Model Performance tab
 ![Model Performance tab](assets/performance.png)
+3 Feature Importance tab
 ![Feature Importance tab](assets/importance.png)
+4 Live Predictions tab
 ![Live Predictions tab](assets/predictions.png)
+5 PDF Report example
 ![PDF Report example](assets/report.png)
 - 
 If you face any issues or have suggestions, feel free to open an **Issue** on GitHub.
